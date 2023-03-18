@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fib-node
     spec:
       containers:
-      - image: quay.io/jduimovich0/fib-node@sha256:4dcb369eeb2aa46d6929c15ba31d3498d78dce5db1aaf2c79950d334ee90fabe
+      - image: quay.io/jduimovich0/fib-node@sha256:d3b14673833a2bac209ea93233354e91a658a27eef04609b0fa77eb9036e0a15
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
