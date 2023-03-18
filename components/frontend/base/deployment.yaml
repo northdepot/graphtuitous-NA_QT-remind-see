@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: frontend
     spec:
       containers:
-      - image: quay.io/jduimovich0/frontend@sha256:b69a67e3d617c3290e0277a83719c1fd90467a178b1f5efcb22c45d0714ffacb
+      - image: quay.io/jduimovich0/frontend@sha256:c44a21a3a9096dfda8efdfe5e688d0a4aa40a11a266fffcaf214066e2c8d7413
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
