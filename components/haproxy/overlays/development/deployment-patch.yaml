@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/jduimovich0/haproxy
+      - image: quay.io/jduimovich0/haproxy@sha256:8911999b727124919c3fbf419ee058f7e3667d913b6104a7724ebed735bfb056
         name: container-image
         resources: {}
 status: {}
